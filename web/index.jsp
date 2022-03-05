@@ -17,7 +17,7 @@
         <jsp:include page="WEB-INF/pages/commons/menu.jsp"/>
 
         <main  style="width: 100%; height: 100%; display: flex ; align-items: center; justify-content: center; ">
-            <div class="card text-center" style="width: 50%"  >
+            <div class="card text-center mx-auto" style="width: 90%; margin-top: 2%"   >
                 <div class="card-header">
                     <h1>Sistema de gestion empresarial</h1>
                 </div>

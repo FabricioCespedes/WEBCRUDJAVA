@@ -110,6 +110,7 @@ public class ClientDAO {
                 //Revisar que no sea null!
                 client.setPhone(rs.getString(3));
                 client.setDirection(rs.getString(4));
+                client.setExist(true);
             }
             
         } catch (SQLException sqlE) {
