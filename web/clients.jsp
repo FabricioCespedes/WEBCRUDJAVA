@@ -73,7 +73,7 @@
                             <td>
 
                                 <a href="clientNew.jsp?id=<%= client.getId_client()%>"> Modificar</a> |
-                                <a href="DeleteClient?id=<%= client.getId_client()%>"> Eliminar</a>
+                                <a method="get" href="DeleteClient?id=<%= client.getId_client()%>"> Eliminar</a>
                             </td>
                         </tr> 
                         <%}
